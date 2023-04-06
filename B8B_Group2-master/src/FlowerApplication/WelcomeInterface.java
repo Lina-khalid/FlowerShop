@@ -47,112 +47,58 @@ public class WelcomeInterface extends javax.swing.JFrame {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
-        jPanel1 = new javax.swing.JPanel();
-        pageTitleLabel2 = new javax.swing.JLabel();
-        flowerPicBackgroundLabel = new javax.swing.JLabel();
-        pageTitleLabel1 = new javax.swing.JLabel();
-        jPanel2 = new javax.swing.JPanel();
         startButton = new javax.swing.JButton();
+        jLabel3 = new javax.swing.JLabel();
+        jLabel2 = new javax.swing.JLabel();
+        jLabel1 = new javax.swing.JLabel();
+        L1 = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
-        setPreferredSize(new java.awt.Dimension(850, 642));
         setResizable(false);
+        getContentPane().setLayout(null);
 
-        jPanel1.setBackground(new java.awt.Color(225, 218, 211));
-        jPanel1.setPreferredSize(new java.awt.Dimension(850, 642));
-
-        pageTitleLabel2.setFont(new java.awt.Font("Broadway", 0, 55)); // NOI18N
-        pageTitleLabel2.setForeground(new java.awt.Color(176, 161, 191));
-        pageTitleLabel2.setText("Our Gardeen");
-
-        flowerPicBackgroundLabel.setIcon(new javax.swing.ImageIcon(getClass().getResource("/guiIcon/Picture5.png"))); // NOI18N
-
-        pageTitleLabel1.setFont(new java.awt.Font("Broadway", 0, 55)); // NOI18N
-        pageTitleLabel1.setForeground(new java.awt.Color(255, 255, 255));
-        pageTitleLabel1.setText("Fresh From ");
-
-        jPanel2.setBackground(new java.awt.Color(225, 218, 211));
-        jPanel2.setBorder(javax.swing.BorderFactory.createMatteBorder(1, 1, 1, 1, new java.awt.Color(176, 161, 191)));
-
-        startButton.setFont(new java.awt.Font("Tahoma", 0, 22)); // NOI18N
-        startButton.setForeground(new java.awt.Color(102, 102, 102));
+        startButton.setBackground(new java.awt.Color(237, 192, 204));
+        startButton.setFont(new java.awt.Font("Gabriola", 0, 20)); // NOI18N
+        startButton.setForeground(new java.awt.Color(255, 255, 255));
         startButton.setText("Shop All Flowers");
         startButton.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 startButtonActionPerformed(evt);
             }
         });
+        getContentPane().add(startButton);
+        startButton.setBounds(20, 450, 160, 40);
 
-        javax.swing.GroupLayout jPanel2Layout = new javax.swing.GroupLayout(jPanel2);
-        jPanel2.setLayout(jPanel2Layout);
-        jPanel2Layout.setHorizontalGroup(
-            jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(startButton, javax.swing.GroupLayout.DEFAULT_SIZE, 237, Short.MAX_VALUE)
-        );
-        jPanel2Layout.setVerticalGroup(
-            jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(startButton, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.DEFAULT_SIZE, 43, Short.MAX_VALUE)
-        );
+        jLabel3.setFont(new java.awt.Font("Gabriola", 0, 25)); // NOI18N
+        jLabel3.setForeground(new java.awt.Color(0, 0, 0));
+        jLabel3.setText("the Flower Shope will help you the best!");
+        getContentPane().add(jLabel3);
+        jLabel3.setBounds(20, 360, 390, 30);
 
-        javax.swing.GroupLayout jPanel1Layout = new javax.swing.GroupLayout(jPanel1);
-        jPanel1.setLayout(jPanel1Layout);
-        jPanel1Layout.setHorizontalGroup(
-            jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(jPanel1Layout.createSequentialGroup()
-                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(jPanel1Layout.createSequentialGroup()
-                        .addGap(46, 46, 46)
-                        .addComponent(jPanel2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addGap(51, 51, 51)
-                        .addComponent(flowerPicBackgroundLabel, javax.swing.GroupLayout.PREFERRED_SIZE, 440, javax.swing.GroupLayout.PREFERRED_SIZE))
-                    .addGroup(jPanel1Layout.createSequentialGroup()
-                        .addGap(80, 80, 80)
-                        .addComponent(pageTitleLabel2, javax.swing.GroupLayout.PREFERRED_SIZE, 404, javax.swing.GroupLayout.PREFERRED_SIZE))
-                    .addGroup(jPanel1Layout.createSequentialGroup()
-                        .addGap(21, 21, 21)
-                        .addComponent(pageTitleLabel1)))
-                .addContainerGap(323, Short.MAX_VALUE))
-        );
-        jPanel1Layout.setVerticalGroup(
-            jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(jPanel1Layout.createSequentialGroup()
-                .addGap(51, 51, 51)
-                .addComponent(pageTitleLabel1, javax.swing.GroupLayout.PREFERRED_SIZE, 56, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(18, 18, 18)
-                .addComponent(pageTitleLabel2, javax.swing.GroupLayout.PREFERRED_SIZE, 59, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(flowerPicBackgroundLabel, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, 454, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel1Layout.createSequentialGroup()
-                        .addComponent(jPanel2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addGap(101, 101, 101))))
-        );
+        jLabel2.setFont(new java.awt.Font("Gabriola", 0, 25)); // NOI18N
+        jLabel2.setForeground(new java.awt.Color(0, 0, 0));
+        jLabel2.setText("Daffodiles are blue, tulips are red,");
+        getContentPane().add(jLabel2);
+        jLabel2.setBounds(20, 320, 720, 70);
 
-        javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
-        getContentPane().setLayout(layout);
-        layout.setHorizontalGroup(
-            layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(jPanel1, javax.swing.GroupLayout.PREFERRED_SIZE, 1099, javax.swing.GroupLayout.PREFERRED_SIZE)
-        );
-        layout.setVerticalGroup(
-            layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(jPanel1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-        );
+        jLabel1.setFont(new java.awt.Font("Gabriola", 0, 100)); // NOI18N
+        jLabel1.setForeground(new java.awt.Color(0, 0, 0));
+        jLabel1.setText("Flower Shope");
+        getContentPane().add(jLabel1);
+        jLabel1.setBounds(20, 180, 690, 200);
+
+        L1.setIcon(new javax.swing.ImageIcon("C:\\Users\\lama1\\Downloads\\image_6483441 (3).JPG")); // NOI18N
+        L1.setText("jLabel2");
+        getContentPane().add(L1);
+        L1.setBounds(-390, -10, 1600, 830);
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
 
-
     private void startButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_startButtonActionPerformed
-
-        // To navigate to the Login interface
-        LoginInterface logintInterface1 = null;
-        if (logintInterface1 == null) {
-            logintInterface1 = new LoginInterface();
-        }
-        logintInterface1.setVisible(true);
-        this.setVisible(false);
+        // TODO add your handling code here:
     }//GEN-LAST:event_startButtonActionPerformed
+
 
     public static void main(String args[]) {
         /* Set the Nimbus look and feel */
@@ -187,11 +133,10 @@ public class WelcomeInterface extends javax.swing.JFrame {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
-    private javax.swing.JLabel flowerPicBackgroundLabel;
-    private javax.swing.JPanel jPanel1;
-    private javax.swing.JPanel jPanel2;
-    private javax.swing.JLabel pageTitleLabel1;
-    private javax.swing.JLabel pageTitleLabel2;
+    private javax.swing.JLabel L1;
+    private javax.swing.JLabel jLabel1;
+    private javax.swing.JLabel jLabel2;
+    private javax.swing.JLabel jLabel3;
     private javax.swing.JButton startButton;
     // End of variables declaration//GEN-END:variables
 }

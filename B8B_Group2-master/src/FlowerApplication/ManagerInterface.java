@@ -55,7 +55,6 @@ public class ManagerInterface extends javax.swing.JFrame {
 
         jPanel1 = new javax.swing.JPanel();
         pageTitleLabel2 = new javax.swing.JLabel();
-        flowerPicBackgroundLabel = new javax.swing.JLabel();
         pageTitleLabel1 = new javax.swing.JLabel();
         menuPanel = new javax.swing.JPanel();
         signOutButton = new javax.swing.JButton();
@@ -71,24 +70,22 @@ public class ManagerInterface extends javax.swing.JFrame {
         subtitleLabel = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
-        setPreferredSize(new java.awt.Dimension(850, 642));
         setResizable(false);
 
-        jPanel1.setBackground(new java.awt.Color(225, 218, 211));
+        jPanel1.setBackground(new java.awt.Color(255, 243, 235));
         jPanel1.setPreferredSize(new java.awt.Dimension(900, 524));
 
-        pageTitleLabel2.setFont(new java.awt.Font("Broadway", 0, 55)); // NOI18N
-        pageTitleLabel2.setForeground(new java.awt.Color(176, 161, 191));
+        pageTitleLabel2.setFont(new java.awt.Font("Gabriola", 0, 90)); // NOI18N
+        pageTitleLabel2.setForeground(new java.awt.Color(237, 192, 204));
         pageTitleLabel2.setText(" Page");
 
-        flowerPicBackgroundLabel.setIcon(new javax.swing.ImageIcon(getClass().getResource("/guiIcon/Picture5.png"))); // NOI18N
-
-        pageTitleLabel1.setFont(new java.awt.Font("Broadway", 0, 55)); // NOI18N
-        pageTitleLabel1.setForeground(new java.awt.Color(255, 255, 255));
+        pageTitleLabel1.setFont(new java.awt.Font("Gabriola", 0, 90)); // NOI18N
+        pageTitleLabel1.setForeground(new java.awt.Color(204, 204, 204));
         pageTitleLabel1.setText("Manager");
 
-        menuPanel.setBackground(new java.awt.Color(207, 196, 199));
+        menuPanel.setBackground(new java.awt.Color(237, 192, 204));
 
+        signOutButton.setBackground(new java.awt.Color(102, 102, 102));
         signOutButton.setFont(new java.awt.Font("Tahoma", 1, 11)); // NOI18N
         signOutButton.setForeground(new java.awt.Color(255, 255, 255));
         signOutButton.setIcon(new javax.swing.ImageIcon(getClass().getResource("/guiIcon/icons8-sign-out-30.png"))); // NOI18N
@@ -111,10 +108,10 @@ public class ManagerInterface extends javax.swing.JFrame {
             .addGroup(menuPanelLayout.createSequentialGroup()
                 .addGap(37, 37, 37)
                 .addComponent(signOutButton, javax.swing.GroupLayout.PREFERRED_SIZE, 47, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                .addContainerGap(390, Short.MAX_VALUE))
         );
 
-        addFlowerPanel.setBackground(new java.awt.Color(207, 196, 199));
+        addFlowerPanel.setBackground(new java.awt.Color(237, 192, 204));
         addFlowerPanel.setBorder(javax.swing.BorderFactory.createMatteBorder(1, 1, 1, 1, new java.awt.Color(207, 196, 199)));
         addFlowerPanel.setPreferredSize(new java.awt.Dimension(185, 283));
 
@@ -172,6 +169,7 @@ public class ManagerInterface extends javax.swing.JFrame {
         flowerNameLabel.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
         flowerNameLabel.setText(" FLOWER NAME");
 
+        doneButton.setBackground(new java.awt.Color(102, 102, 102));
         doneButton.setIcon(new javax.swing.ImageIcon(getClass().getResource("/guiIcon/icons8-checkmark-45.png"))); // NOI18N
         doneButton.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -180,7 +178,7 @@ public class ManagerInterface extends javax.swing.JFrame {
         });
 
         successfulAdditionLabel.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
-        successfulAdditionLabel.setForeground(new java.awt.Color(114, 173, 85));
+        successfulAdditionLabel.setForeground(new java.awt.Color(51, 255, 51));
         successfulAdditionLabel.setText("The flower has been added successfully");
 
         javax.swing.GroupLayout addFlowerPanelLayout = new javax.swing.GroupLayout(addFlowerPanel);
@@ -240,61 +238,51 @@ public class ManagerInterface extends javax.swing.JFrame {
         jPanel1Layout.setHorizontalGroup(
             jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel1Layout.createSequentialGroup()
-                .addGap(18, 18, 18)
-                .addComponent(pageTitleLabel1)
-                .addContainerGap(861, Short.MAX_VALUE))
-            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel1Layout.createSequentialGroup()
                 .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(jPanel1Layout.createSequentialGroup()
-                        .addGap(30, 30, 30)
-                        .addComponent(menuPanel, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                        .addComponent(flowerPicBackgroundLabel, javax.swing.GroupLayout.PREFERRED_SIZE, 279, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED))
+                        .addGap(18, 18, 18)
+                        .addComponent(pageTitleLabel1))
                     .addGroup(jPanel1Layout.createSequentialGroup()
-                        .addGap(77, 77, 77)
-                        .addComponent(pageTitleLabel2)
-                        .addGap(253, 253, 253)))
-                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                    .addComponent(addFlowerPanel, javax.swing.GroupLayout.DEFAULT_SIZE, 315, Short.MAX_VALUE)
-                    .addComponent(subtitleLabel, javax.swing.GroupLayout.DEFAULT_SIZE, 315, Short.MAX_VALUE))
-                .addContainerGap(335, Short.MAX_VALUE))
+                        .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addGroup(jPanel1Layout.createSequentialGroup()
+                                .addGap(30, 30, 30)
+                                .addComponent(menuPanel, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                            .addGroup(jPanel1Layout.createSequentialGroup()
+                                .addGap(77, 77, 77)
+                                .addComponent(pageTitleLabel2, javax.swing.GroupLayout.PREFERRED_SIZE, 159, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                        .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addComponent(addFlowerPanel, javax.swing.GroupLayout.PREFERRED_SIZE, 315, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(subtitleLabel, javax.swing.GroupLayout.PREFERRED_SIZE, 315, javax.swing.GroupLayout.PREFERRED_SIZE))))
+                .addContainerGap(50, Short.MAX_VALUE))
         );
         jPanel1Layout.setVerticalGroup(
             jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel1Layout.createSequentialGroup()
-                .addGap(18, 18, 18)
+                .addContainerGap(18, Short.MAX_VALUE)
                 .addComponent(pageTitleLabel1, javax.swing.GroupLayout.PREFERRED_SIZE, 56, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                    .addComponent(pageTitleLabel2, javax.swing.GroupLayout.PREFERRED_SIZE, 59, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(subtitleLabel))
                 .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(jPanel1Layout.createSequentialGroup()
-                        .addGap(24, 24, 24)
-                        .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addComponent(menuPanel, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                            .addGroup(jPanel1Layout.createSequentialGroup()
-                                .addGap(35, 35, 35)
-                                .addComponent(flowerPicBackgroundLabel, javax.swing.GroupLayout.PREFERRED_SIZE, 481, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addGap(0, 18, Short.MAX_VALUE))))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                        .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                            .addComponent(pageTitleLabel2, javax.swing.GroupLayout.PREFERRED_SIZE, 72, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(subtitleLabel)))
                     .addGroup(jPanel1Layout.createSequentialGroup()
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(addFlowerPanel, javax.swing.GroupLayout.PREFERRED_SIZE, 492, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addGap(0, 0, Short.MAX_VALUE))))
+                        .addGap(77, 77, 77)
+                        .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
+                            .addComponent(menuPanel, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(addFlowerPanel, javax.swing.GroupLayout.PREFERRED_SIZE, 492, javax.swing.GroupLayout.PREFERRED_SIZE)))))
         );
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
         layout.setHorizontalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(jPanel1, javax.swing.GroupLayout.DEFAULT_SIZE, 1143, Short.MAX_VALUE)
+            .addComponent(jPanel1, javax.swing.GroupLayout.DEFAULT_SIZE, 619, Short.MAX_VALUE)
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(layout.createSequentialGroup()
-                .addComponent(jPanel1, javax.swing.GroupLayout.PREFERRED_SIZE, 702, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(0, 0, Short.MAX_VALUE))
+            .addComponent(jPanel1, javax.swing.GroupLayout.PREFERRED_SIZE, 643, javax.swing.GroupLayout.PREFERRED_SIZE)
         );
 
         pack();
@@ -392,7 +380,6 @@ public class ManagerInterface extends javax.swing.JFrame {
     private javax.swing.JButton doneButton;
     private javax.swing.JLabel flowerNameLabel;
     private javax.swing.JTextField flowerNameTextField;
-    private javax.swing.JLabel flowerPicBackgroundLabel;
     private javax.swing.JLabel flowerPriceLabel;
     private javax.swing.JTextField flowerPriceTextField;
     private javax.swing.JLabel flowerQTYLabel;
